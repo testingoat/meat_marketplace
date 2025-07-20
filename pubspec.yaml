@@ -1,0 +1,40 @@
+name: meat_marketplace
+description: A meat marketplace application.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  supabase_flutter: ^2.9.1
+  http: ^1.4.0
+  cached_network_image: ^3.3.1
+  flutter_svg: ^2.0.9
+  sizer: ^2.0.15
+  shared_preferences: ^2.2.2
+  dio: ^5.7.0
+  connectivity_plus: ^5.0.2
+  fl_chart: ^0.65.0
+  fluttertoast: ^8.2.4
+  google_fonts: ^6.1.0
+  file_picker: ^8.0.0+1
+  image_picker: ^1.0.4
+  path_provider: ^2.1.1
+  universal_html: ^2.2.4
+  web: any
+  share_plus: any
+  camera: any
+  permission_handler: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
